@@ -1,4 +1,4 @@
-package Notifications.example;
+package com.julio.notifications.example;
 
 public class ServicioUsuario {
 private NotificationService notificationService;

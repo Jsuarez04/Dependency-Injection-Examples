@@ -1,4 +1,4 @@
-package Gamer.Example;
+package com.julio.gamer.Example;
 
 public class Cyber {
     public static void main(String[] args){

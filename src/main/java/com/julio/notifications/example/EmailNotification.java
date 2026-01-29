@@ -1,4 +1,4 @@
-package Notifications.example;
+package com.julio.notifications.example;
 
 public class EmailNotification implements NotificationService {
     private String email;

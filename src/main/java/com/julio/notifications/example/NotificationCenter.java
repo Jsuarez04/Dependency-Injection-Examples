@@ -1,4 +1,4 @@
-package Notifications.example;
+package com.julio.notifications.example;
 
 public class NotificationCenter {
     public static void main(String[] args) {

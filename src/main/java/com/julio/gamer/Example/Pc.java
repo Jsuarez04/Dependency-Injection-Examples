@@ -1,4 +1,4 @@
-package Gamer.Example;
+package com.julio.gamer.Example;
 
 public class Pc implements Platform {
     private int fps;
