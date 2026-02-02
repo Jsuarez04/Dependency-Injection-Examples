@@ -1,4 +1,4 @@
-package com.julio.files;
+package com.julio.files.example;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -107,3 +107,26 @@ public class Bitacora {
 
 }
 
+/*
+* Guardar la ruta en una variable inmutable
+*                    |
+*                    |
+*                    |
+*                    |
+*                    v
+*   guardas la linea o el texto en una variable
+*                    |
+*                    |
+*                    |
+*                    |
+*                    v
+* verificas que el archivo exista, escribes, si ya hay contenido, simplemente el nuevo lo agrega al final
+*                    |
+*                    |
+*                    |
+*                    |
+*                    v
+* todo manejado en un bloque try catch para evitar errores
+*
+*
+* */

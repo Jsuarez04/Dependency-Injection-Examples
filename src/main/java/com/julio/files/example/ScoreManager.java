@@ -1,4 +1,4 @@
-package com.julio.files;
+package com.julio.files.example;
 
 import java.io.IOException;
 import java.nio.file.Files;
