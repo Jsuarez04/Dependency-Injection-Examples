@@ -1,14 +1,18 @@
 package com.julio.gamer.Example;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class Console implements Platform {
     private int fps;
-
-    public Console(int fps) {
-        this.fps = fps;
-    }
+    private int controllerBatteryPorcentage;
 
     @Override
     public void play(String game) {
-        System.out.println("Playing in Console: " + game + " at " + fps + " fps");
+        if(controllerBatteryPorcentage < 10){
+            throw new RuntimeException("Too low battery, please charge");
+        }else{
+            System.out.println("Playing in Console: " + game + " at " + fps + " fps");
+        }
     }
 }

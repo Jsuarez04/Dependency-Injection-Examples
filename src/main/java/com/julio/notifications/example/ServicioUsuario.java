@@ -1,10 +1,11 @@
 package com.julio.notifications.example;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class ServicioUsuario {
 private NotificationService notificationService;
-    public ServicioUsuario(NotificationService notificationService) {
-        this.notificationService = notificationService;
-    }
+
     public void sendNotification(String message){
         notificationService.sendNotification(message);
     }

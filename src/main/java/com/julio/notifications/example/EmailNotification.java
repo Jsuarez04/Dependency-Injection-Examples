@@ -1,11 +1,10 @@
 package com.julio.notifications.example;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class EmailNotification implements NotificationService {
     private String email;
-
-    public EmailNotification(String email) {
-        this.email = email;
-    }
 
     @Override
     public void sendNotification(String message) {
